@@ -33,7 +33,7 @@ body{
   border-right:solid #EDF2C5 1px;
 }
 .small .login li{
-  font-family:Arial BoldMT;
+  font-family:Arial Black;
   display:flex;
   list-style:none;
   height: 20px;
@@ -53,12 +53,19 @@ body{
   
 }
 .two li{
-  display:flex;
   list-style:none;
+}
+.two li a{
+  display:flex;
+  text-decoration: none;
   font-family:Arial Black;
   font-size:16px;
   padding:16px 30px;
   color:#EDF2C5;
+}
+.two li a:hover{
+  background-color:#EDF2C5;
+  color:#778A50;
 }
 .pic{
   width: 940px;
